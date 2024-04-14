@@ -1,0 +1,13 @@
+.Skill_1 {
+  display: flex;
+  gap: 3rem;
+}
+.Skill_Name {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin: 2rem ;
+}
+.Common_Skill{
+    width: fit-content;
+}

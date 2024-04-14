@@ -1,0 +1,17 @@
+.Details_Main_Container {
+  display: flex;
+  padding: 1rem 5rem;
+  gap: 4rem;
+}
+.Details_Left_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 50%;
+  padding: 2rem;
+}
+.Details_Right_Container {
+  width: 50%;
+  gap: 5rem;
+  padding: 2rem;
+}

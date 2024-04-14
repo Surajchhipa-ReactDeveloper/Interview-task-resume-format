@@ -1,0 +1,25 @@
+.User_Link_Container {
+  display: flex;
+  align-items: center;
+  color: black !important;
+  gap: 1rem;
+
+  .Left_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 2rem;
+      object-fit: contain;
+      object-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .Right_Text {
+    font-size: 2.3rem;
+    line-height: 3rem;
+    color: rgb(56 67 71);
+  }
+}

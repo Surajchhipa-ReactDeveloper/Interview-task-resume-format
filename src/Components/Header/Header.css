@@ -1,0 +1,42 @@
+.Header_Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+
+}
+.Header_Left_Container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.User_Name {
+  font-size: 7rem;
+  line-height: 5rem;
+  font-weight: 700;
+}
+.User_Work{
+    font-size: 3.4rem;
+    font-weight: 500;
+    color: rgb(31 144 255);
+    line-height: 3rem;
+    
+}
+.User_Other_Details {
+  display: flex;
+  gap: 8rem;
+  .Call_And_Link_Container,
+  .Mail_And_Location_Container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.User_Profile {
+  img {
+    width: 25rem;
+    border-radius: 2rem;
+  }
+}

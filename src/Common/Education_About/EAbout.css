@@ -1,0 +1,38 @@
+.Education_About_Container {
+  display: flex;
+  gap: 0.9rem;
+  margin: 2rem 0rem;
+  border-bottom: 2px dashed rgba(62, 62, 62, 0.247);
+  padding: 0.5rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.Education_About_Left_Container {
+  width: 80%;
+  display: flex;
+  gap: 0.9rem;
+  margin: 2rem 0rem;
+  flex-direction: column;
+}
+.Education_About_Right_Container {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.3rem;
+  border-left: 2px solid black;
+}
+.Education_Heading {
+  font-size: 2.9rem;
+  line-height: 3rem;
+  font-weight: 500;
+}
+.Education_University_Name {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgb(31 144 255);
+}
+.Education_Location_Date {
+  margin-bottom: 1rem;
+}

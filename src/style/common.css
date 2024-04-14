@@ -1,0 +1,14 @@
+.Location_Calender {
+  display: flex;
+  gap: 5rem;
+}
+.Span {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgb(31 144 255);
+}
+.Border_Button {
+  margin: 2rem 0rem;
+  border-bottom: 2px dashed rgba(62, 62, 62, 0.247);
+  padding: 0.5rem 1rem;
+}

@@ -1,0 +1,15 @@
+.Project_Level {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  background-color: rgb(255, 149, 0);
+  outline: none;
+}
+::-webkit-slider-thumb {
+  background-color: blueviolet;
+}
+
+.Project_Level {
+  margin-bottom: 2.5rem; /* Just for spacing */
+}

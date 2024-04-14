@@ -1,0 +1,21 @@
+.Passions_Main_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.Passions_Logo_Container {
+  display: flex;
+  gap: 10rem;
+}
+.Passions_Logo {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  gap: 1rem;
+  img {
+    width: 3.3rem;
+  }
+}
