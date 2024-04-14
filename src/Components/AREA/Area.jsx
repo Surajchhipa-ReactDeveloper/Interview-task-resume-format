@@ -1,39 +1,30 @@
-import React, { useState } from "react";
-import InputRange from "react-input-range";
-import "react-input-range/lib/css/index.css"; // Import the default styles
-import Heading from "../../Common/Heading/Heading"; // Assuming Heading is a custom component you've defined
-
-const MyComponent = () => {
-  const [projectManagementValue, setProjectManagementValue] = useState({
-    min: 0,
-    max: 20,
-  });
-  const [teamHandlingValue, setTeamHandlingValue] = useState({
-    min: 0,
-    max: 20,
-  });
-
+import React from "react";
+import "./Area.css";
+import Heading from "../../Common/Heading/Heading";
+const Area = () => {
   return (
     <div className="Area_Main_Container">
       <Heading Heading={"AREA OF EXPERTISE"} />
-      <div className="Project_Level Border_Button">
+      <div className="Project_Level">
         Project Management
-        <InputRange
-          maxValue={10}
-          value={projectManagementValue}
-          onChange={(value) => setProjectManagementValue(value)}
-        />
+        <input
+          type="range"
+          name=""
+          id="projectRange"
+          class="input black"
+        />{" "}
       </div>
-      <div className="Project_Level Border_Button">
-        TEAM HANDLING
-        <InputRange
-          maxValue={20}
-          value={teamHandlingValue}
-          onChange={(value) => setTeamHandlingValue(value)}
-        />
+      <div className="Project_Level">
+        Project
+        <input
+          type="range"
+          name=""
+          id="projectRange"
+          class="input black"
+        />{" "}
       </div>
     </div>
   );
 };
 
-export default MyComponent;
+export default Area;
